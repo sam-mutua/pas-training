@@ -1,0 +1,23 @@
+---
+title: ""
+---
+
+## Materials
+
+The training will help us see how to typeset a whole exam in the format of the Examinations Office at the University.
+
+The sample examination covers the following areas of specialization:
+
+1.  **Pure Mathematics**
+
+2.  **Applied Mathematics**
+
+3.  **Statistics/Actuarial Science/Financial Engineering**
+
+## Exam to typeset
+
+Download the exam to typeset in this training [here](/pdf/Sample_Exam.pdf)
+
+::: callout-note
+**The LaTeX template will be circulated during the training.**
+:::

@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+%\usepackage{garamondx}
+\usepackage[a4paper, total={210mm,297mm}, left=20mm, right=20mm, top=20mm, bottom=20mm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{booktabs}
+\usepackage{graphicx,amsmath,amssymb,amsfonts}
+\usepackage{epsfig,lscape}
+\usepackage{multicol,multirow,slashbox,color}
+\usepackage{lifecon}
+\usepackage[makeroom]{cancel}
+\usepackage{tabulary,booktabs}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{mathtools}
+\usetikzlibrary{calc,positioning}
+\usetikzlibrary{arrows}
+\def\tic{\tikz\fill[scale=0.6,red](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+\usepackage{enumerate}
+\usetikzlibrary{arrows,automata}
+\pagenumbering{arabic}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand\headrulewidth{0in}
+%\rhead{\bfseries{W1-2-60-1-6}}
+%\lhead{\bfseries{STA 2191/ STA 2121}}
+\usepackage{answers}
+\newcommand{\sh}{\emph{shs }}
+\newenvironment{problem}[1]{\begin{trivlist}\item \textbf{#1}. %
+		\renewcommand{\Currentlabel}{#1}}{\end{trivlist}}
+\Newassociation{solution}{Soln}{solutions}
+\renewenvironment{Soln}[1]{\begin{trivlist}\item
+		\textbf{#1}.}{\end{trivlist}}
+\renewcommand{\mark}[1]{\hspace*{\fill}[{{#1}\:}{mark}]}
+\renewcommand{\marks}[1]{\hspace*{\fill}[{{#1}\:}{marks}]}
+\usepackage{pdfpages}
+\usepackage{advdate}

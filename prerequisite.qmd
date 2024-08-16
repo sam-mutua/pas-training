@@ -1,0 +1,25 @@
+---
+title: ""
+---
+
+## Requirements
+
+But before then kindly do the following prior to the seminar:
+
+-   Download and install [MikTex](https://miktex.org/download)
+
+-   Download and install [TexStudio Editor](https://www.texstudio.org/)
+
+::: callout-important
+Follow the steps and directions during installation. Install the basic package.
+:::
+
+## Overleaf
+
+The online version of LaTeX [Overleaf Environment](https://www.overleaf.com/). This will ensure that we are having the latest and updated packages. It is also beneficial for collaboration work.
+
+Please [create an account](https://www.overleaf.com/)
+
+::: callout-tip
+The facilitator **May** help you with local computer problems during the seminar.
+:::

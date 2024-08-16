@@ -1,0 +1,45 @@
+---
+title: ""
+---
+
+------------------------------------------------------------------------
+
+## PAS LaTeX Seminar
+
+📆 August 2024, 10.00 am - 1.00 pm EAT
+
+🏨 Physical
+
+🏡 [Workshop website](https://sam-mutua.github.io/pas-seminar/)
+
+------------------------------------------------------------------------
+
+## Summary
+
+This seminar will provide Faculty Members at the Department of Pure and Applied Sciences with the required skills to typset documents and exams in LaTeX software.
+
+## Learning Outcomes
+
+-   Understand LaTEX syntax, commands, and structure.
+-   Learn how to format documents effectively using LaTeX including adjusting:
+    -   Margins
+    -   Fonts
+    -   Spacing
+    -   Headers
+    -   Footers
+    -   Tables
+-   Learn how to use LaTeX to accurately render mathematical equations
+-   Learn how to manage citations and References
+-   Learn how to create Beamer Slides for presentations
+
+## Further Reading
+
+-   [The not so short introduction to LaTex](https://tobi.oetiker.ch/lshort/lshort.pdf)
+
+-   [Comprehensive Tex archive Network](http://www.ctan.org/)
+
+-   [Tex Exchange Forum](https://tex.stackexchange.com/)
+
+## Facilitator
+
+![](images/photo.jpeg){style="float:left;padding: 0 10px 0 0; border-radius:50%" fig-alt="Headshot of Crystal Lewis" width="150"} [**Dr. Mutua Kilai**](https://sam-mutua.github.io/work/) is a Lecturer of Statistics at the [Department of Pure and Applied Sciences](https://spas.kyu.ac.ke/spas-pages/departments/pure-and-applied-sciences) at [Kirinyaga University](https://www.kyu.ac.ke/). He is passionate about Statistics and loves story telling using data.

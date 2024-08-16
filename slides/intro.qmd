@@ -1,0 +1,34 @@
+## Schedule
+
+<br>
+
+| Time        | Activity                   |
+|-------------|----------------------------|
+| 9.00-9.30   | Welcoming Remarks          |
+| 9.30-10.30  | Introduction to LaTeX      |
+| 10.30-10.45 | Break                      |
+| 10.45-12.45 | Getting Started with LaTeX |
+| 1.00-2.00   | Lunch Break                |
+| 2.00-3.30   | Hands on Exercises         |
+
+## Logistics
+
+<br>
+
+**MikTex Download**
+
+<br> Download and install [MikTex](https://miktex.org/download)
+
+<br>
+
+**TexStudio Download**
+
+<br> Download and install [TexStudio Editor](https://www.texstudio.org/)
+
+<br>
+
+You can ask a question midway ✋.
+
+<br>
+
+You are free to move around 🚶.

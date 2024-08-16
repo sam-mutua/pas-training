@@ -1,0 +1,7 @@
+.extrapad li:not(:last-child) {
+    margin-bottom:60px  !important;
+}
+
+.reveal li {
+  padding: 20px; 
+}

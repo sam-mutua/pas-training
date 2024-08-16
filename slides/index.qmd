@@ -1,0 +1,653 @@
+---
+title: "Typesetting Exams with LaTex <br>"
+author: "<br> Dr. Mutua Kilai, PhD <br> <br> August 19, 2024 <br> <br> Department of Pure and Applied Sciences"
+footer: "Dr. Mutua Kilai, PhD"
+logo: "uni.png"
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    theme: edtheme.scss
+    slide-number: true
+    css: style.css
+    chalkboard: true
+---
+
+
+## Logistics
+
+<br>
+
+**MikTex Download**
+
+<br> Download and install [MikTex](https://miktex.org/download)
+
+<br>
+
+**TexStudio Download**
+
+<br> Download and install [TexStudio Editor](https://www.texstudio.org/)
+
+<br>
+
+You can ask a question midway ✋.
+
+<br>
+
+You are free to move around 🚶.
+
+
+## About the Speaker
+
+- Statistics Lecturer at [Department of Pure and Applied Sciences](https://spas.kyu.ac.ke/spas-pages/departments/pure-and-applied-sciences), [Kirinyaga University](https://www.kyu.ac.ke/)
+
+
+- Passionate about Statistics and Data Science.
+
+
+- Member of [Africa R Group](https://r4africa.org/)
+
+- For more details see [Dr. Mutua Kilai](https://sam-mutua.github.io/work/)
+
+
+
+## Motivation
+
+::: callout-tip
+## Encouragement
+
+*The ideal situation occurs when the things we regard as beautiful are also regarded by other people as useful \~ Donald Knuth*
+:::
+
+<br>
+
+::: callout-note
+### Goal
+
+Making your math look good!!!
+:::
+
+<br>
+
+::: callout-warning
+### Disclaimer
+
+*This is just an introduction to the basics of typesetting in Maths. For more details you can explore further on your own.*
+:::
+
+
+
+
+## Getting Started
+
+-   LaTex is a typesetting system suitable for producing scientific and mathematical documents
+
+    i.   LaTex enables authors to typeset and print their work
+    
+    ii.   LaTex is pronounced as "Lay-tech"
+    
+    iii.   Tex is the typesetting engine used by LaTex
+    
+## LaTeX Pros and Cons
+
+::: columns
+::: column
+### Advantages
+
+-   Math is displayed nicely and easy to edit
+
+-   Required in Post-graduate courses
+
+-   Good for writing research articles
+:::
+
+::: column
+### Disadvantages
+
+-   There is a steep learning curve
+
+:::{.callout-warning}
+*Be Prepared to give up along the way, but don't quit the learning process.*
+:::
+
+:::
+:::
+
+
+## LaTeX Editors
+
+::::{.columns}
+:::{.column}
+#### `General Editors`
+
+- [Sublime Text Editor](https://www.sublimetext.com/)
+
+- [Notepad++](https://notepad-plus-plus.org/)
+
+#### `Browser Editors`
+
+- [Overleaf](https://www.overleaf.com/)
+
+- [Authorea](https://www.authorea.com/)
+
+:::
+
+:::{.column}
+
+#### `LaTeX Editors`
+
+- [TeXstudio](https://www.texstudio.org/)
+
+- [TeXmaker](https://www.xm1math.net/texmaker/)
+
+- [TeXworks](https://www.tug.org/texworks/)
+
+:::{.callout}
+#### Advantages of Browser Editors
+*Allows multiple users to collaborate on a single document.*
+:::
+
+:::
+
+::::
+
+
+:::{.callout-tip icon=false}
+**We will use offline mode for this training.**
+:::
+
+
+## Typeset an Exam Paper in LaTeX
+
+- We will be able to learn:
+
+     i. How to create the preamble of the document class
+     
+     ii. How to create questions with parts and subparts
+     
+     iii. How to include graphs in Exam questions
+     
+     iv. How to include tables in Exam questions
+     
+     v. How to include R/Python Codes in Exam questions
+     
+     vi. How to create Marking Schemes for each question
+     
+     vii. How to typset equations in LaTeX
+     
+
+
+## Getting Started in LaTeX
+
+- After opening LaTeX click on File then click on New or just Ctrl+N
+
+
+- The starting point is to define the `documentclass` type. 
+
+- The `documentclass` sets up what type of document you are working with, loads many default styles and sets the overall look and feel of your document.
+
+- There are also class specific commands which are only valid in certain document classes. 
+
+
+- There are many more standard classes and even more custom classes usually used for extremely specific purposes.
+
+- It is important to remember that all of these classes are flexible and there is no right way to use them.
+
+
+## Common Classes and their usage
+
+| documentclass | Usage                                                                                                                                                                                               |
+|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| article       | For articles in scientific journals, presentations, short reports, program documentation, etc. Possibly the most versatile class and the one I recommend beginners use almost exclusively at first. |
+| report        | For longer reports of several chapters, small books, theses.                                                                                                                                        |
+| book          | For books.                                                                                                                                                                                          |
+| memoir        | For books. Based on book class, but gives a bit more control over look and feel of document in a simple way.                                                                                        |
+| letter        | For letters. Has many predefined commands to help correct letter style.                                                                                                                             |
+| beamer        | For presentations. As article class is to Microsoft Word, beamer class is to Microsoft Powerpoint.                                                                                                  |
+
+
+## Note
+
+:::{.callout-note}
+Every document must have a class. If you do not have one, the document will not compile. 
+:::
+
+
+## Packages
+
+- Although with just the basic LaTeX package one would theoretically typeset any document, in practice this would be very difficult.
+
+- Luckily, there are **packages** which extend functionality of the language in ways such as improved design elements, graphic generation etc.
+
+:::{.callout-tip}
+- The `usepackage` command is always invoked before the `begin{document}` command.
+
+- Some packages have option arguments which go in the square brackets before the curly brackets
+:::
+
+
+## Listing of Common Packages
+
+- `amsmath:` Allows use of extra mathemathical symbols and adds features to facilitate writing mathematical formulas.
+
+- `geometry:` Set up page geometry such as margins.
+
+- `float:` Allows placement of figure and table environments to be fixed by user instead of by LaTeX
+
+- `graphicx:` Allows external image importation of many different formats
+
+- `enumerate:` Allows lists to be enumerated by many different types of characters.
+
+- `TikZ/PGF:` Vectorized drawing package that produces high-quality figures.
+
+
+## Typeset Mathematics
+
+- For many people the most useful part of LaTeX is the ability to typeset complex mathematical formulas. 
+
+- For the sake of simplicity, LaTeX separates the tasks of typesetting mathematics and typesetting normal text.
+
+
+| Method                             | Special Characteristics                          | Usage                   |
+|------------------------------------|--------------------------------------------------|-------------------------|
+| `$...$`                              | None                                             | In-line Math            |
+| `\begin{equation}...\end{equation}` | Goes to a newline and center equation with label | Equations               |
+| `$$....$$` or `\[...\]`                          | Goes to a newline and center equation            | Equations with no label |
+
+
+
+## Most Common LaTeX Mathematical symbols
+
+| Symbol Name                | LaTeX command                | Rendering                    |
+|----------------------------|------------------------------|------------------------------|
+| Fraction                   | `\frac{x}{y}`                | $\frac{x}{y}$                |
+| In-line fraction           | `\dfrac{x}{y}`               | $\dfrac{x}{y}$               |
+| Greek Letters              | `\alpha, \beta, \gamma`      | $\alpha, \beta, \gamma$      |
+| Integral                   | `\int_{a}^{b}, \iint, \oint` | $\int_{a}^{b}, \iint, \oint$ |
+| Properly sized parantheses | `\left(\dfrac{a}{b}\right)`  | $\left(\dfrac{a}{b}\right)$  |
+| Summations                 | `\sum_{n=1}^{\infty}`        | $\sum_{n=1}^{\infty}$        |
+
+
+
+## Typeset Tables in LaTeX
+
+- Tables can be a very efficient way to present information.
+
+- Remember that tables are finicky. 
+
+- It can take some work to get them looking exactly how you want them, but the end product is worth it. 
+
+- Often one will need to play around with the parameters to get the appearance correct.
+
+- Usually use the following [link](https://www.tablesgenerator.com/latex_tables#) to generate Tables in LaTeX.
+
+
+## Floats
+
+- The table environment is an example of a float. 
+
+
+| Specifier | Action                                                            |
+|-----------|-------------------------------------------------------------------|
+| H         | Place exactly at spot in source text                              |
+| h         | Place approximately at spot in source test                        |
+| t         | Place at top of page                                              |
+| b         | Place at bottom of page                                           |
+| p         | Place on page for floats only                                     |
+| !         | Override internal LaTeX parameters for determining float position |
+
+
+:::{.callout-note}
+The **float** package is not necessary if you wish to let LaTeX place the figure for you.
+:::
+
+
+## Graphics
+
+- Often it is useful, if not necessary, to include graphics inside a LaTeX document.
+
+- The code imports a figure and places it into a document while scaling it by 100mm.
+
+
+```{latex}
+\documentclass{article}
+\usepackage{float}
+\usepackage{graphicx}
+\begin{document}
+\begin{figure}[H]
+\centering
+\includegraphics[width=100mm]{atom.png}
+\end{figure}
+\end{document}
+```
+
+
+:::{.callout-note}
+The `\includegraphics` command is part of the graphicx package and can import all the usual file formats including pdf, jpeg, png, etc.
+:::
+
+
+## Captions
+
+- Lets take the figure we had before and add a caption to it. 
+
+- Where the caption goes in relation to the `\includegraphics` command will determine where it is placed on the page
+
+
+```{latex}
+\documentclass{article}
+\usepackage{float}
+\usepackage{graphicx}
+\begin{document}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1.5]{atom.png}
+\caption{This is an atom}
+\end{figure}
+\end{document}
+```
+
+
+## Setting Paper Size and Margins
+
+- The page dimensions in LaTeX document are highly configurable and the `geometry` package offers a simple way to change the length and the layout of different elements such as:
+
+    i. Paper Size
+    
+    ii. Margins
+    
+    iii. Footnotes
+    
+    iv. header
+    
+    v. Orientation
+    
+
+## Customize Exam Paper Size and Margins
+
+- The following LaTeX code is able to customize the paper size and margins
+
+```{latex}
+\usepackage[a4paper, total={210mm,297mm}, left=20mm, right=20mm, top=20mm, bottom=20mm]{geometry}
+```
+
+
+- Produces an a4paper whose dimensions are 210mm by 297mm and the margins are set to 20mm.
+
+
+## `setspace` package in LaTeX
+
+- The `setspace` package provides commands and environments to change the spacing of your document's lines of text.
+
+
+:::{.callout-note}
+- You can invoke the following spacing options in the preamble of your document:
+
+    i. `\singlespacing`
+    
+    ii. `\onehalfspacing`
+    
+    iii. `\doublespacing`
+:::
+
+
+## Page Numbering
+
+- Document page numbers can be typeset using a particular style, such as using *Arabic* or *Roman numerals*, and typeset at a particular page location—usually within headers or footers.
+
+- The *style* of page numbers can be changed by the `\pagenumbering` command
+
+- The *location* of page numbers can be changed using the `fancyhdr` package
+
+
+## Setting styles of Page numbers
+
+- The style of page numbers can be changed using the command:
+
+```{latex}
+\pagenumbering{style}
+```
+
+
+- The style can take any of the options:
+
+    i. `arabic`: Use arabic numerals 1,2,3...
+    
+    ii. `alph`: Use lowercase letters a, b,c,...
+    
+    iii. `Alph`: Use uppercase letters A, B, C...
+    
+    iv. `roman`: Use lowercase roman numerals i, ii, iii,...
+    
+    v. `Roman`: Use uppercase roman numerals I, II, III,...
+    
+    
+
+## Commands
+
+- Most LaTeX commands are simple words preceded by the special character usually `\`, the backslash character. 
+
+
+### Few Examples
+
+```{latex}
+\documentclass{article}
+\begin{document}
+In a document there are different types of \textbf{commands} 
+that define the way the elements are displayed. This 
+commands may insert special elements: $\alpha \beta \Gamma$
+\end{document}
+```
+
+
+- The `\textbf{}` will embolden the text passed as a parameter to the command.
+
+- In mathematical mode, there are special commands such as `\alpha, \beta, Gamma` to display greek letters.
+
+
+## Defining a new command
+
+- Although LaTeX is shipped with a huge number of commands it often becomes necessary to define your own special commands to:
+
+    i. `Simplify your work`
+    
+    ii. `Reduce repetitive tasks`
+    
+    iii. `Perform some complex formatting`
+    
+
+- In this context we will define commands that will help us distribute marks to questions.
+
+
+## Distributing Marks to Questions
+
+```{latex}
+\renewcommand{\mark}[1]{\hspace*{\fill}[{{#1}\:}{mark}]}
+\renewcommand{\marks}[1]{\hspace*{\fill}[{{#1}\:}{marks}]}
+```
+
+
+- In the above code:
+
+    i. `\mark and \marks` are the names of the new command
+    
+    ii. `[1]` is the number of parameters the new command will take
+    
+    iii. `\hspace*{\fill}` creates a horizontal space between the last word in the sentence and the square brackets.
+    
+    iv. `[{{#1}\:}{mark}]` is what the command actually does - its definition
+
+## Commands with optional parameters
+
+- You can define commands that take *optional* parameters.
+
+```{latex}
+\documentclass{article}
+\newcommand{\plusbinomial}[3][2]{(#2 + #3)^#1}
+\begin{document}
+We can use it like this: \[ \plusbinomial{x}{y} \]
+\end{document}
+```
+
+- What the command does
+
+    i. `\plusbinomial` is the name of the new command.
+    
+    ii. `[3]` is the number of parameters the command will take, in this case 3.
+    
+    iii. `[2]` is the default value for the first parameter. This is what makes the first parameter optional, if not passed it will use this default value.
+    
+    iv. `(#2 + #3)^#1` is what the command does.
+
+## Warning
+
+:::{.callout-warning}
+The new command should be defined in the preamble before the `\begin{document}`
+:::
+
+
+## Question with Sub-Parts in Latex
+
+- More oftenly we encounter a question with subparts say `Question 1 with sub-sections (a) etc which has sub-subsections like (i), (ii),...`
+
+- To enable the questions with sub-parts we use `enumerate` package which determines the style in which the counter is printed.
+
+- An occurrence of one of the tokens `A a I i 1` produces the value of the counter printed with (respectively) `\Alph \alph \Roman \roman or
+\arabic.`
+
+## LaTeX Code
+
+```{latex}
+\documentclass[a4paper]{article}
+\usepackage{enumerate}
+\begin{document}
+	\begin{enumerate}
+		\item
+			\begin{enumerate}[(a)]
+			\item One
+			\begin{enumerate}[(i)]
+				\item 
+			\end{enumerate}
+			\item Two
+			\item Three
+		\end{enumerate}
+	\end{enumerate}
+
+\end{document}
+```
+
+
+## How to Include R/Python/Matlab Codes
+
+- Sometimes you want to include software output in an exam for students to interpret.
+
+- The default tool to display code in LaTeX is `verbatim`, which generates an output in monospaced font.
+
+```{latex}
+Call:
+lm(formula = Y ~ X)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-0.9207 -0.4380  0.1915  0.3081  0.8224 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)   0.3207     0.1824   1.758   0.1169  
+X             0.5353     0.2173   2.464   0.0391 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5735 on 8 degrees of freedom
+Multiple R-squared:  0.4314,	Adjusted R-squared:  0.3603 
+F-statistic: 6.069 on 1 and 8 DF,  p-value: 0.0391
+```
+
+
+## Typeset Marking Schemes 
+
+- LaTeX gives an option to type your solutions while setting the exam questions.
+
+- We will create a `\Newassociation` to enable us link the solutions to each question.
+
+
+
+## Newassociation
+
+```{latex}
+\Newassociation{solution}{Soln}{solutions}
+```
+
+- It creates an environment `{solution}` to be used in your document for the solutions within the problems themselves.
+      
+  
+- It creates an environment `{Soln}` which is the            environment that will be used to display the              solutions. These solutions are written to a              separate file (or files) and then can be input            into your document at a later place
+    
+    
+- It creates a file naming schema for the solution file(s) based on `solutions`. 
+
+- For this to work we shall enclose the set of questions in between `\Opensolutionfile{solutions}[ans]` and `\Closesolutionfile{solutions}`
+
+
+## How to write the solutions
+
+- In between each question the following syntax is used to type the solution to each question
+
+```{latex}
+\begin{solution}
+....
+\end{solution}
+```
+
+- In order to see the file for the solutions in your document invoke the following code at the end of the document
+
+
+```{latex}
+\newpage
+\setcounter{page}{1}
+\begin{center}
+\underline{SPM 2***: UNIT NAME SOLUTIONS}
+\par\end{center}
+\Readsolutionfile{solutions}
+```
+
+
+## Assigning Checkmarks in LaTeX
+
+- Once done with the solutions the next item is to produce the distribution of marks per each working.
+
+- The following syntax should work:
+
+```{latex}
+$\textcolor{red}{\scalebox{2.5}\checkmark{1}}$.
+```
+
+
+- The code does the following:
+
+     i. `\textcolor{red}` - specifies the color of the tick
+     
+     ii. `{\scalebox{2.5}}` specifies the thickness of the tick
+     
+     iii. `{\checkmark{1}}` marks to be awarded in this instance one mark is awarded to the working
+
+
+## Real Work
+
+- We have seen the common typesetting scenarios we will encounter while setting exams.
+
+- I will be able to demonstrate with a set of questions drawn from the following areas:
+
+    
+     i. `Pure Mathematics`
+     
+     ii. `Applied Mathematics`
+     
+     iii. `Statistics/Actuarial Sciences/Financial Engineering`
+     
+     iv. `Mathematics and Computer Science`
+     
+  
+
+# Thank You
+

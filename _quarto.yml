@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!slides/[0-9]*.qmd"
+
+website:
+  page-navigation: true
+  favicon: "images/logo.png"
+  title: "Introduction to LaTeX for Mathematicians"
+  repo-actions: [source,edit,issue]
+  page-footer:
+    left: "&copy; 2024 Dr. Mutua Kilai"
+    right: "Website built with [Quarto](https://quarto.org/)"
+  sidebar:
+    background: "#689078"
+    logo: "images/logo.png"
+    tools:
+      - icon: github
+        href: https://sam-mutua.github.io/work/
+        text: Github
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: prerequisite.qmd
+        text: Pre-Requisites
+      - href: about.qmd
+        text: Materials
+      - href: videos.qmd
+        text: LaTeX videos
+
+
+format:
+  html:
+    theme: [cosmo, edtheme.css]
+    toc: true
+
+editor: visual
+

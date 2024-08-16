@@ -1,0 +1,451 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PAS LaTeX Seminar",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "The training will help us see how to typeset a whole exam in the format of the Examinations Office at the University.\nThe sample examination covers the following areas of specialization:\n\nPure Mathematics\nApplied Mathematics\nStatistics/Actuarial Science/Financial Engineering",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "index.html#pas-latex-seminar",
+    "href": "index.html#pas-latex-seminar",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "PAS LaTeX Seminar",
+    "text": "PAS LaTeX Seminar\n📆 August 2024, 10.00 am - 1.00 pm EAT\n🏨 Physical\n🏡 Workshop website",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#summary",
+    "href": "index.html#summary",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Summary",
+    "text": "Summary\nThis seminar will provide Faculty Members at the Department of Pure and Applied Sciences with the required skills to typset documents and exams in LaTeX software.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand LaTEX syntax, commands, and structure.\nLearn how to format documents effectively using LaTeX including adjusting:\n\nMargins\nFonts\nSpacing\nHeaders\nFooters\nTables\n\nLearn how to use LaTeX to accurately render mathematical equations\nLearn how to manage citations and References\nLearn how to create Beamer Slides for presentations",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#further-reading",
+    "href": "index.html#further-reading",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nThe not so short introduction to LaTex\nComprehensive Tex archive Network\nTex Exchange Forum",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#facilitator",
+    "href": "index.html#facilitator",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Facilitator",
+    "text": "Facilitator\n Dr. Mutua Kilai is a Lecturer of Statistics at the Department of Pure and Applied Sciences at Kirinyaga University. He is passionate about Statistics and loves story telling using data.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "prerequisite.html",
+    "href": "prerequisite.html",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "But before then kindly do the following prior to the seminar:\n\nDownload and install MikTex\nDownload and install TexStudio Editor\n\n\n\n\n\n\n\nImportant\n\n\n\nFollow the steps and directions during installation. Install the basic package.",
+    "crumbs": [
+      "Pre-Requisites"
+    ]
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Presentation Slides",
+    "section": "",
+    "text": "Full Screen."
+  },
+  {
+    "objectID": "slides.html#slides",
+    "href": "slides.html#slides",
+    "title": "Presentation Slides",
+    "section": "",
+    "text": "Full Screen."
+  },
+  {
+    "objectID": "slides/index.html#schedule",
+    "href": "slides/index.html#schedule",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\nTime\nActivity\n\n\n\n\n9.00-9.30\nWelcoming Remarks\n\n\n9.30-10.30\nIntroduction to LaTeX\n\n\n10.30-10.45\nBreak\n\n\n10.45-12.45\nSetting Exams with LaTeX\n\n\n1.00-2.00\nLunch Break"
+  },
+  {
+    "objectID": "slides/intro.html",
+    "href": "slides/intro.html",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "Time\nActivity\n\n\n\n\n9.00-9.30\nWelcoming Remarks\n\n\n9.30-10.30\nIntroduction to LaTeX\n\n\n10.30-10.45\nBreak\n\n\n10.45-12.45\nGetting Started with LaTeX\n\n\n1.00-2.00\nLunch Break\n\n\n2.00-3.30\nHands on Exercises"
+  },
+  {
+    "objectID": "slides/intro.html#schedule",
+    "href": "slides/intro.html#schedule",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "Time\nActivity\n\n\n\n\n9.00-9.30\nWelcoming Remarks\n\n\n9.30-10.30\nIntroduction to LaTeX\n\n\n10.30-10.45\nBreak\n\n\n10.45-12.45\nGetting Started with LaTeX\n\n\n1.00-2.00\nLunch Break\n\n\n2.00-3.30\nHands on Exercises"
+  },
+  {
+    "objectID": "slides/intro.html#logistics",
+    "href": "slides/intro.html#logistics",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Logistics",
+    "text": "Logistics\n\nMikTex Download\n Download and install MikTex\n\nTexStudio Download\n Download and install TexStudio Editor\n\nYou can ask a question midway ✋.\n\nYou are free to move around 🚶."
+  },
+  {
+    "objectID": "slides/index.html#logistics",
+    "href": "slides/index.html#logistics",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Logistics",
+    "text": "Logistics\n\nMikTex Download\n Download and install MikTex\n\nTexStudio Download\n Download and install TexStudio Editor\n\nYou can ask a question midway ✋.\n\nYou are free to move around 🚶."
+  },
+  {
+    "objectID": "slides/index.html",
+    "href": "slides/index.html",
+    "title": "Mastering LaTeX: Training Seminar",
+    "section": "",
+    "text": "Time\nActivity\n\n\n\n\n9.00-9.30\nWelcoming Remarks\n\n\n9.30-10.30\nIntroduction to LaTeX\n\n\n10.30-10.45\nBreak\n\n\n10.45-12.45\nGetting Started with LaTeX\n\n\n1.00-2.00\nLunch Break\n\n\n2.00-3.30\nHands on Exercises"
+  },
+  {
+    "objectID": "slides/index.html#about-the-speaker",
+    "href": "slides/index.html#about-the-speaker",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "About the Speaker",
+    "text": "About the Speaker\n\nStatistics Lecturer at Department of Pure and Applied Sciences, Kirinyaga University\nPassionate about Statistics and Data Science.\nMember of Africa R Group\nFor more details see Dr. Mutua Kilai"
+  },
+  {
+    "objectID": "slides/index.html#motivation",
+    "href": "slides/index.html#motivation",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Motivation",
+    "text": "Motivation\n\n\n\n\n\n\nEncouragement\n\n\nThe ideal situation occurs when the things we regard as beautiful are also regarded by other people as useful ~ Donald Knuth\n\n\n\n\n\n\n\n\n\n\nGoal\n\n\nMaking your math look good!!!\n\n\n\n\n\n\n\n\n\n\nDisclaimer\n\n\nThis is just an introduction to the basics of typesetting in Maths. For more details you can explore further on your own."
+  },
+  {
+    "objectID": "slides/index.html#introductions",
+    "href": "slides/index.html#introductions",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Introductions",
+    "text": "Introductions\n\nYour Name\nArea of Specialization"
+  },
+  {
+    "objectID": "slides/index.html#getting-started",
+    "href": "slides/index.html#getting-started",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Getting Started",
+    "text": "Getting Started\n\nLaTex is a typesetting system suitable for producing scientific and mathematical documents\n\nLaTex enables authors to typeset and print their work\nLaTex is pronounced as “Lay-tech”\nTex is the typesetting engine used by LaTex"
+  },
+  {
+    "objectID": "slides/index.html#latex-pros-and-cons",
+    "href": "slides/index.html#latex-pros-and-cons",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "LaTeX Pros and Cons",
+    "text": "LaTeX Pros and Cons\n\n\nAdvantages\n\nMath is displayed nicely and easy to edit\nRequired in Post-graduate courses\nGood for writing research articles\n\n\nDisadvantages\n\nThere is a steep learning curve\n\n\n\n\n\n\n\nWarning\n\n\nBe Prepared to give up along the way, but don’t quit the learning process."
+  },
+  {
+    "objectID": "slides/index.html#latex-editors",
+    "href": "slides/index.html#latex-editors",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "LaTeX Editors",
+    "text": "LaTeX Editors\n\n\nGeneral Editors\n\nSublime Text Editor\nNotepad++\n\nBrowser Editors\n\nOverleaf\nAuthorea\n\n\nLaTeX Editors\n\nTeXstudio\nTeXmaker\nTeXworks\n\n\n\n\nAdvantages of Browser Editors\n\n\nAllows multiple users to collaborate on a single document.\n\n\n\n\n\n\n\n\nTip\n\n\nWe will use offline mode for this training."
+  },
+  {
+    "objectID": "slides/index.html#typeset-an-exam-paper-in-latex",
+    "href": "slides/index.html#typeset-an-exam-paper-in-latex",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Typeset an Exam Paper in LaTeX",
+    "text": "Typeset an Exam Paper in LaTeX\n\nWe will be able to learn:\n\nHow to create the preamble of the document class\nHow to create questions with parts and subparts\nHow to include graphs in Exam questions\nHow to include tables in Exam questions\nHow to include R/Python Codes in Exam questions\nHow to create Marking Schemes for each question\nHow to typset equations in LaTeX"
+  },
+  {
+    "objectID": "slides/index.html#getting-started-in-latex",
+    "href": "slides/index.html#getting-started-in-latex",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Getting Started in LaTeX",
+    "text": "Getting Started in LaTeX\n\nAfter opening LaTeX click on File then click on New or just Ctrl+N\nThe starting point is to define the documentclass type.\nThe documentclass sets up what type of document you are working with, loads many default styles and sets the overall look and feel of your document.\nThere are also class specific commands which are only valid in certain document classes.\nThere are many more standard classes and even more custom classes usually used for extremely specific purposes.\nIt is important to remember that all of these classes are flexible and there is no right way to use them."
+  },
+  {
+    "objectID": "slides/index.html#common-classes-and-their-usage",
+    "href": "slides/index.html#common-classes-and-their-usage",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Common Classes and their usage",
+    "text": "Common Classes and their usage\n\n\n\n\n\n\n\ndocumentclass\nUsage\n\n\n\n\narticle\nFor articles in scientific journals, presentations, short reports, program documentation, etc. Possibly the most versatile class and the one I recommend beginners use almost exclusively at first.\n\n\nreport\nFor longer reports of several chapters, small books, theses.\n\n\nbook\nFor books.\n\n\nmemoir\nFor books. Based on book class, but gives a bit more control over look and feel of document in a simple way.\n\n\nletter\nFor letters. Has many predefined commands to help correct letter style.\n\n\nbeamer\nFor presentations. As article class is to Microsoft Word, beamer class is to Microsoft Powerpoint."
+  },
+  {
+    "objectID": "slides/index.html#note",
+    "href": "slides/index.html#note",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Note",
+    "text": "Note\n\n\n\n\n\n\nNote\n\n\nEvery document must have a class. If you do not have one, the document will not compile."
+  },
+  {
+    "objectID": "slides/index.html#packages",
+    "href": "slides/index.html#packages",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Packages",
+    "text": "Packages\n\nAlthough with just the basic LaTeX package one would theoretically typeset any document, in practice this would be very difficult.\nLuckily, there are packages which extend functionality of the language in ways such as improved design elements, graphic generation etc.\n\n\n\n\n\n\n\nTip\n\n\n\nThe usepackage command is always invoked before the begin{document} command.\nSome packages have option arguments which go in the square brackets before the curly brackets"
+  },
+  {
+    "objectID": "slides/index.html#listing-of-common-packages",
+    "href": "slides/index.html#listing-of-common-packages",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Listing of Common Packages",
+    "text": "Listing of Common Packages\n\namsmath: Allows use of extra mathemathical symbols and adds features to facilitate writing mathematical formulas.\ngeometry: Set up page geometry such as margins.\nfloat: Allows placement of figure and table environments to be fixed by user instead of by LaTeX\ngraphicx: Allows external image importation of many different formats\nenumerate: Allows lists to be enumerated by many different types of characters.\nTikZ/PGF: Vectorized drawing package that produces high-quality figures."
+  },
+  {
+    "objectID": "slides/index.html#typeset-mathematics",
+    "href": "slides/index.html#typeset-mathematics",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Typeset Mathematics",
+    "text": "Typeset Mathematics\n\nFor many people the most useful part of LaTeX is the ability to typeset complex mathematical formulas.\nFor the sake of simplicity, LaTeX separates the tasks of typesetting mathematics and typesetting normal text.\n\n\n\n\n\n\n\n\n\nMethod\nSpecial Characteristics\nUsage\n\n\n\n\n$...$\nNone\nIn-line Math\n\n\n\\begin{equation}...\\end{equation}\nGoes to a newline and center equation with label\nEquations\n\n\n$$....$$ or \\[...\\]\nGoes to a newline and center equation\nEquations with no label"
+  },
+  {
+    "objectID": "slides/index.html#most-common-latex-mathematical-symbols",
+    "href": "slides/index.html#most-common-latex-mathematical-symbols",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Most Common LaTeX Mathematical symbols",
+    "text": "Most Common LaTeX Mathematical symbols\n\n\n\n\n\n\n\n\nSymbol Name\nLaTeX command\nRendering\n\n\n\n\nFraction\n\\frac{x}{y}\n\\(\\frac{x}{y}\\)\n\n\nIn-line fraction\n\\dfrac{x}{y}\n\\(\\dfrac{x}{y}\\)\n\n\nGreek Letters\n\\alpha, \\beta, \\gamma\n\\(\\alpha, \\beta, \\gamma\\)\n\n\nIntegral\n\\int_{a}^{b}, \\iint, \\oint\n\\(\\int_{a}^{b}, \\iint, \\oint\\)\n\n\nProperly sized parantheses\n\\left(\\dfrac{a}{b}\\right)\n\\(\\left(\\dfrac{a}{b}\\right)\\)\n\n\nSummations\n\\sum_{n=1}^{\\infty}\n\\(\\sum_{n=1}^{\\infty}\\)"
+  },
+  {
+    "objectID": "slides/index.html#typeset-tables-in-latex",
+    "href": "slides/index.html#typeset-tables-in-latex",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Typeset Tables in LaTeX",
+    "text": "Typeset Tables in LaTeX\n\nTables can be a very efficient way to present information.\nRemember that tables are finicky.\nIt can take some work to get them looking exactly how you want them, but the end product is worth it.\nOften one will need to play around with the parameters to get the appearance correct.\nUsually use the following link to generate Tables in LaTeX."
+  },
+  {
+    "objectID": "slides/index.html#floats",
+    "href": "slides/index.html#floats",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Floats",
+    "text": "Floats\n\nThe table environment is an example of a float.\n\n\n\n\n\n\n\n\nSpecifier\nAction\n\n\n\n\nH\nPlace exactly at spot in source text\n\n\nh\nPlace approximately at spot in source test\n\n\nt\nPlace at top of page\n\n\nb\nPlace at bottom of page\n\n\np\nPlace on page for floats only\n\n\n!\nOverride internal LaTeX parameters for determining float position\n\n\n\n\n\n\n\n\n\nNote\n\n\nThe float package is not necessary if you wish to let LaTeX place the figure for you."
+  },
+  {
+    "objectID": "slides/index.html#graphics",
+    "href": "slides/index.html#graphics",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Graphics",
+    "text": "Graphics\n\nOften it is useful, if not necessary, to include graphics inside a LaTeX document.\nThe code imports a figure and places it into a document while scaling it by 100mm.\n\n\\documentclass{article}\n\\usepackage{float}\n\\usepackage{graphicx}\n\\begin{document}\n\\begin{figure}[H]\n\\centering\n\\includegraphics[width=100mm]{atom.png}\n\\end{figure}\n\\end{document}\n\n\n\n\n\n\nNote\n\n\nThe \\includegraphics command is part of the graphicx package and can import all the usual file formats including pdf, jpeg, png, etc."
+  },
+  {
+    "objectID": "slides/index.html#captions",
+    "href": "slides/index.html#captions",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Captions",
+    "text": "Captions\n\nLets take the figure we had before and add a caption to it.\nWhere the caption goes in relation to the \\includegraphics command will determine where it is placed on the page\n\n\\documentclass{article}\n\\usepackage{float}\n\\usepackage{graphicx}\n\\begin{document}\n\\begin{figure}[H]\n\\centering\n\\includegraphics[scale=1.5]{atom.png}\n\\caption{This is an atom}\n\\end{figure}\n\\end{document}"
+  },
+  {
+    "objectID": "slides/index.html#section",
+    "href": "slides/index.html#section",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "",
+    "text": "Dr. Mutua Kilai, PhD"
+  },
+  {
+    "objectID": "slides/index.html#setting-paper-size-and-margins",
+    "href": "slides/index.html#setting-paper-size-and-margins",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Setting Paper Size and Margins",
+    "text": "Setting Paper Size and Margins\n\nThe page dimensions in LaTeX document are highly configurable and the geometry package offers a simple way to change the length and the layout of different elements such as:\n\nPaper Size\nMargins\nFootnotes\nheader\nOrientation"
+  },
+  {
+    "objectID": "slides/index.html#customize-exam-paper-size-and-margins",
+    "href": "slides/index.html#customize-exam-paper-size-and-margins",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Customize Exam Paper Size and Margins",
+    "text": "Customize Exam Paper Size and Margins\n\nThe following LaTeX code is able to customize the paper size and margins\n\n\\usepackage[a4paper, total={210mm,297mm}, left=20mm, right=20mm, top=20mm, bottom=20mm]{geometry}\n\nProduces an a4paper whose dimensions are 210mm by 297mm and the margins are set to 20mm."
+  },
+  {
+    "objectID": "slides/index.html#setspace-package-in-latex",
+    "href": "slides/index.html#setspace-package-in-latex",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "setspace package in LaTeX",
+    "text": "setspace package in LaTeX\n\nThe setspace package provides commands and environments to change the spacing of your document’s lines of text.\n\n\n\n\n\n\n\nNote\n\n\n\nYou can invoke the following spacing options in the preamble of your document:\n\n\\singlespacing\n\\onehalfspacing\n\\doublespacing"
+  },
+  {
+    "objectID": "slides/index.html#page-numbering",
+    "href": "slides/index.html#page-numbering",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Page Numbering",
+    "text": "Page Numbering\n\nDocument page numbers can be typeset using a particular style, such as using Arabic or Roman numerals, and typeset at a particular page location—usually within headers or footers.\nThe style of page numbers can be changed by the \\pagenumbering command\nThe location of page numbers can be changed using the fancyhdr package"
+  },
+  {
+    "objectID": "slides/index.html#setting-styles-of-page-numbers",
+    "href": "slides/index.html#setting-styles-of-page-numbers",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Setting styles of Page numbers",
+    "text": "Setting styles of Page numbers\n\nThe style of page numbers can be changed using the command:\n\n\\pagenumbering{style}\n\nThe style can take any of the options:\n\narabic: Use arabic numerals 1,2,3…\nalph: Use lowercase letters a, b,c,…\nAlph: Use uppercase letters A, B, C…\nroman: Use lowercase roman numerals i, ii, iii,…\nRoman: Use uppercase roman numerals I, II, III,…"
+  },
+  {
+    "objectID": "slides/index.html#defining-new-commands",
+    "href": "slides/index.html#defining-new-commands",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Defining New Commands",
+    "text": "Defining New Commands\n\nMost LaTeX commands are simple words preceded by the special character usually \\, the backslash character.\n\nFew Examples\n\\documentclass{article}\n\\begin{document}\nIn a document there are different types of \\textbf{commands} \nthat define the way the elements are displayed. This \ncommands may insert special elements: $\\alpha \\beta \\Gamma$\n\\end{document}\n\nThe \\textbf{} will embolden the text passed as a parameter to the command.\nIn mathematical mode, there are special commands such as \\alpha, \\beta, Gamma to display greek letters.\n\n\n\n\n\nDr. Mutua Kilai, PhD"
+  },
+  {
+    "objectID": "slides/index.html#commands",
+    "href": "slides/index.html#commands",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Commands",
+    "text": "Commands\n\nMost LaTeX commands are simple words preceded by the special character usually \\, the backslash character.\n\nFew Examples\n\\documentclass{article}\n\\begin{document}\nIn a document there are different types of \\textbf{commands} \nthat define the way the elements are displayed. This \ncommands may insert special elements: $\\alpha \\beta \\Gamma$\n\\end{document}\n\nThe \\textbf{} will embolden the text passed as a parameter to the command.\nIn mathematical mode, there are special commands such as \\alpha, \\beta, Gamma to display greek letters."
+  },
+  {
+    "objectID": "slides/index.html#defining-a-new-command",
+    "href": "slides/index.html#defining-a-new-command",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Defining a new command",
+    "text": "Defining a new command\n\nAlthough LaTeX is shipped with a huge number of commands it often becomes necessary to define your own special commands to:\n\nSimplify your work\nReduce repetitive tasks\nPerform some complex formatting\n\nIn this context we will define commands that will help us distribute marks to questions."
+  },
+  {
+    "objectID": "slides/index.html#distributing-marks-to-questions",
+    "href": "slides/index.html#distributing-marks-to-questions",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Distributing Marks to Questions",
+    "text": "Distributing Marks to Questions\n\\renewcommand{\\mark}[1]{\\hspace*{\\fill}[{{#1}\\:}{mark}]}\n\\renewcommand{\\marks}[1]{\\hspace*{\\fill}[{{#1}\\:}{marks}]}\n\nIn the above code:\n\n\\mark and \\marks are the names of the new command\n[1] is the number of parameters the new command will take\n\\hspace*{\\fill} creates a horizontal space between the last word in the sentence and the square brackets.\n[{{#1}\\:}{mark}] is what the command actually does - its definition"
+  },
+  {
+    "objectID": "slides/index.html#commands-with-optional-parameters",
+    "href": "slides/index.html#commands-with-optional-parameters",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Commands with optional parameters",
+    "text": "Commands with optional parameters\n\nYou can define commands that take optional parameters.\n\n\\documentclass{article}\n\\newcommand{\\plusbinomial}[3][2]{(#2 + #3)^#1}\n\\begin{document}\nWe can use it like this: \\[ \\plusbinomial{x}{y} \\]\n\\end{document}\n\nWhat the command does\n\n\\plusbinomial is the name of the new command.\n[3] is the number of parameters the command will take, in this case 3.\n[2] is the default value for the first parameter. This is what makes the first parameter optional, if not passed it will use this default value.\n(#2 + #3)^#1 is what the command does."
+  },
+  {
+    "objectID": "slides/index.html#warning",
+    "href": "slides/index.html#warning",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Warning",
+    "text": "Warning\n\n\n\n\n\n\nWarning\n\n\nThe new command should be defined in the preamble before the \\begin{document}"
+  },
+  {
+    "objectID": "slides/index.html#question-with-sub-parts-in-latex",
+    "href": "slides/index.html#question-with-sub-parts-in-latex",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Question with Sub-Parts in Latex",
+    "text": "Question with Sub-Parts in Latex\n\nMore oftenly we encounter a question with subparts say Question 1 with sub-sections (a) etc which has sub-subsections like (i), (ii),...\nTo enable the questions with sub-parts we use enumerate package which determines the style in which the counter is printed.\nAn occurrence of one of the tokens A a I i 1 produces the value of the counter printed with (respectively) \\Alph \\alph \\Roman \\roman or \\arabic."
+  },
+  {
+    "objectID": "slides/index.html#latex-code",
+    "href": "slides/index.html#latex-code",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "LaTeX Code",
+    "text": "LaTeX Code\n\\documentclass[a4paper]{article}\n\\usepackage{enumerate}\n\\begin{document}\n    \\begin{enumerate}\n        \\item\n            \\begin{enumerate}[(a)]\n            \\item One\n            \\begin{enumerate}[(i)]\n                \\item \n            \\end{enumerate}\n            \\item Two\n            \\item Three\n        \\end{enumerate}\n    \\end{enumerate}\n\n\\end{document}"
+  },
+  {
+    "objectID": "slides/index.html#how-to-include-rpythonmatlab-codes",
+    "href": "slides/index.html#how-to-include-rpythonmatlab-codes",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "How to Include R/Python/Matlab Codes",
+    "text": "How to Include R/Python/Matlab Codes\n\nSometimes you want to include software output in an exam for students to interpret.\nThe default tool to display code in LaTeX is verbatim, which generates an output in monospaced font.\n\nCall:\nlm(formula = Y ~ X)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-0.9207 -0.4380  0.1915  0.3081  0.8224 \n\nCoefficients:\n            Estimate Std. Error t value Pr(&gt;|t|)  \n(Intercept)   0.3207     0.1824   1.758   0.1169  \nX             0.5353     0.2173   2.464   0.0391 *\n---\nSignif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1\n\nResidual standard error: 0.5735 on 8 degrees of freedom\nMultiple R-squared:  0.4314,    Adjusted R-squared:  0.3603 \nF-statistic: 6.069 on 1 and 8 DF,  p-value: 0.0391"
+  },
+  {
+    "objectID": "slides/index.html#typeset-marking-schemes",
+    "href": "slides/index.html#typeset-marking-schemes",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Typeset Marking Schemes",
+    "text": "Typeset Marking Schemes\n\nLaTeX gives an option to type your solutions while setting the exam questions.\nWe will create a \\Newassociation to enable us link the solutions to each question."
+  },
+  {
+    "objectID": "slides/index.html#newassociation",
+    "href": "slides/index.html#newassociation",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Newassociation",
+    "text": "Newassociation\n\\Newassociation{solution}{Soln}{solutions}\n\nIt creates an environment {solution} to be used in your document for the solutions within the problems themselves.\nIt creates an environment {Soln} which is the environment that will be used to display the solutions. These solutions are written to a separate file (or files) and then can be input into your document at a later place\nIt creates a file naming schema for the solution file(s) based on solutions.\nFor this to work we shall enclose the set of questions in between \\Opensolutionfile{solutions}[ans] and \\Closesolutionfile{solutions}"
+  },
+  {
+    "objectID": "slides/index.html#how-to-write-the-solutions",
+    "href": "slides/index.html#how-to-write-the-solutions",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "How to write the solutions",
+    "text": "How to write the solutions\n\nIn between each question the following syntax is used to type the solution to each question\n\n\\begin{solution}\n....\n\\end{solution}\n\nIn order to see the file for the solutions in your document invoke the following code at the end of the document\n\n\\newpage\n\\setcounter{page}{1}\n\\begin{center}\n\\underline{SPM 2***: UNIT NAME SOLUTIONS}\n\\par\\end{center}\n\\Readsolutionfile{solutions}"
+  },
+  {
+    "objectID": "slides/index.html#assigning-checkmarks-in-latex",
+    "href": "slides/index.html#assigning-checkmarks-in-latex",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Assigning Checkmarks in LaTeX",
+    "text": "Assigning Checkmarks in LaTeX\n\nOnce done with the solutions the next item is to produce the distribution of marks per each working.\nThe following syntax should work:\n\n$\\textcolor{red}{\\scalebox{2.5}\\checkmark{1}}$.\n\nThe code does the following:\n\n\\textcolor{red} - specifies the color of the tick\n{\\scalebox{2.5}} specifies the thickness of the tick\n{\\checkmark{1}} marks to be awarded in this instance one mark is awarded to the working"
+  },
+  {
+    "objectID": "slides/index.html#real-work",
+    "href": "slides/index.html#real-work",
+    "title": "Typesetting Exams with LaTex ",
+    "section": "Real Work",
+    "text": "Real Work\n\nWe have seen the common typesetting scenarios we will encounter while setting exams.\nI will be able to demonstrate with a set of questions drawn from the following areas:\n\nPure Mathematics\nApplied Mathematics\nStatistics/Actuarial Sciences/Financial Engineering\nMathematics and Computer Science"
+  },
+  {
+    "objectID": "prerequisite.html#requirements",
+    "href": "prerequisite.html#requirements",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "But before then kindly do the following prior to the seminar:\n\nDownload and install MikTex\nDownload and install TexStudio Editor\n\n\n\n\n\n\n\nImportant\n\n\n\nFollow the steps and directions during installation. Install the basic package.",
+    "crumbs": [
+      "Pre-Requisites"
+    ]
+  },
+  {
+    "objectID": "prerequisite.html#overleaf",
+    "href": "prerequisite.html#overleaf",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Overleaf",
+    "text": "Overleaf\nThe online version of LaTeX Overleaf Environment. This will ensure that we are having the latest and updated packages. It is also beneficial for collaboration work.\nPlease create an account\n\n\n\n\n\n\nTip\n\n\n\nThe facilitator May help you with local computer problems during the seminar.",
+    "crumbs": [
+      "Pre-Requisites"
+    ]
+  },
+  {
+    "objectID": "about.html#materials",
+    "href": "about.html#materials",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "The training will help us see how to typeset a whole exam in the format of the Examinations Office at the University.\nThe sample examination covers the following areas of specialization:\n\nPure Mathematics\nApplied Mathematics\nStatistics/Actuarial Science/Financial Engineering",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "about.html#exam-to-typeset",
+    "href": "about.html#exam-to-typeset",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "Exam to typeset",
+    "text": "Exam to typeset\nDownload the exam to typeset in this training here\n\n\n\n\n\n\nNote\n\n\n\nThe LaTeX template will be circulated during the training.",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "videos.html",
+    "href": "videos.html",
+    "title": "Introduction to LaTeX for Mathematicians",
+    "section": "",
+    "text": "The following videos can be of help to you as you learn LaTeX.",
+    "crumbs": [
+      "LaTeX videos"
+    ]
+  }
+]
